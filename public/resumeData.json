@@ -1,0 +1,164 @@
+{
+  "main": {
+    "name":"Đorđe Vasić",
+    "occupation":"Web Developer / Graphic Designer / Traffic Engineer",
+    "description":"with 13+ years experience designing, drawing, and programing",
+    "image":"profilepic.jpg",
+    "bio":"Talented web developer and graphic designer with wide aspect of work that can do when it comes to developing and designing. Involved and individualy finished many projects with great variations in demands (from simple websites, e-commerce, wordpress, custom aplications to corporate applications and games).  Excelent team player and successful sportsman ready for improvement and learning every day.",
+    "contactmessage":"Ready for new development challenges? Send Your request and Hire me!",
+    "email": "vasicdjordje@hotmail.com",
+    "phone": "+381 63 821 8306",
+    "phone2": "+381 60 546 0943",
+    "address":{
+      "street":"Mitropolita Stratimirovića 74.",
+      "city":"Sremski Karlovci",
+      "state":"Serbia",
+      "zip": "21205"
+    },
+    "website": "http://www.fenixmma.com",
+    "resumedownload":"./documents/FrontEndDeveloper.pdf",
+    "resumedownload2":"./documents/ITBusinessAnalyst.pdf",
+    "resumedownload3":"./documents/AthleticTrainer.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/CodeArtwebdeesign",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/djordje-vasic-front-end/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/fenix_academy",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/joevaske",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"https://join.skype.com/invite/adeKFoIUPVSa",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Front end Developer with strong base in HTML/CSS and JavaScript with Graphic Design skills",
+    "education":[
+      {
+        "school":"Faculty of Technical Sciences, Novi Sad",
+        "degree":"Master of Traffic engineering",
+        "graduated":"June 2007",
+        "description":"Traffic engineering -Postal traffic and Telecommunications"
+      },
+      {
+        "school":"ITAcademy, Belgrade",
+        "degree":"Web Developer",
+        "graduated":"January 2018",
+        "description":"XML / PHP programming, MySQL, Advanced JavaScript and Ajax, HTML and CSS, Advanced PHP, Apache server administration, WordPress, Web cryptography, Core JavaScript, Dreamweaver, Core PHP  "
+      }
+    ],
+    "work":[
+      {
+        "company":"Pošte Srpske A.D. Banja Luka",
+        "title":"IT Business analyst - Expert Associate Postal tehnology Engeneer",
+        "years":"9 Years until September 2009",
+        "description":"Business Analist with 8+ years of IT software development experience in a company that uses over 90 applications. Motivated by results, able to follow the entire application development process from analysis to implementation. Quickly learniner who can adapt to new environments and business requirements as well as new business systems."
+      },
+      {
+        "company":"Freelancer",
+        "title":"Web Developer - Graphic Designer",
+        "years":"August 2006 - January 2020",
+        "description":"Web developer and Graphic Designer with 13+ years experience designing, drawing, and programing. Talented freelancer with wide aspect of work that can do when it comes to developing and designing. Involved and individualy finished many projects with great variations in demands (from simple websites, e-commerce, wordpress, custom aplications to corporate applications and games).  Excelent team player and successful sportsman ready for improvement and learning every day."
+      }
+    ],
+    "skills":[
+      {
+        "name":"HTML",
+        "level":"80%"
+      },
+      {
+        "name":"CSS/CSS3",
+        "level":"75%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"70%"
+      },
+      {
+        "name":"jQuery",
+        "level":"65%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"60%"
+      },
+      {
+        "name":"PHP",
+        "level":"70%"
+      },
+      {
+        "name":"SQL",
+        "level":"65%"
+      },
+      {
+        "name":"Photoshop",
+        "level":"70%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"60%"
+      },
+      {
+        "name":"Karate/Brazilian Jiu Jitsu",
+        "level":"90%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Axios Consulting",
+        "category":"Consulting Agency - website",
+        "image":"axios-consulting.jpg",
+        "url":"https://www.axios.ba"
+      },
+      {
+        "title":"Lagalica",
+        "category":"cheating game for popular tv show Slagalica",
+        "image":"lagalica-slagalica.jpg",
+        "url":"http://www.lagalica.net"
+      },
+      {
+        "title":"Karate Savez Republike Srpske",
+        "category":"Website I built for a Karate Association Republic of Srpska",
+        "image":"karate-savez.jpg",
+        "url":"http://www.karatesavez.rs.ba/"
+      },
+      {
+        "title":"Fenix MMA",
+        "category":"Brazilian Jiu Jitsu and MMA website",
+        "image":"fenix-mma.jpg",
+        "url":"http://www.fenixmma.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Djordje was responsible, verstile and skilled engineer. One of Our finest. He is very fast self-learner and I'd like to recommend him to all.",
+        "user":"Zoran Protic - Executive Director for ICT, Development, Sales and Marketing at Poste Srpske"
+       
+      },
+      {
+        "text":"Djordje is one of the best people to work with, his work is impeccable and he's a very responsive and co-operative person. definite must hire category.",
+        "user":"Udhav Vaid - Upwork"
+      }
+    ]
+  }
+}

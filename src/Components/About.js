@@ -1,0 +1,62 @@
+import React, { Component } from 'react';
+
+class About extends Component {
+  render() {
+
+    if(this.props.data){
+      var name = this.props.data.name;
+      var profilepic= "images/"+this.props.data.image;
+      var bio = this.props.data.bio;
+      var street = this.props.data.address.street;
+      var city = this.props.data.address.city;
+      var state = this.props.data.address.state;
+      var zip = this.props.data.address.zip;
+      var phone= this.props.data.phone;
+      var phone2= this.props.data.phone2;
+      var email = this.props.data.email;
+      var resumeDownload = this.props.data.resumedownload;
+      var resumeDownload2 = this.props.data.resumedownload2;
+      var resumeDownload3 = this.props.data.resumedownload3;
+    }
+
+    return (
+      <section id="about">
+      <div className="row">
+         <div className="three columns">
+            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
+         </div>
+         <div className="nine columns main-col">
+            <h2>About Me</h2>
+
+            <p>{bio}</p>
+            <div className="row">
+               <div className="columns contact-details">
+                  <h2>Contact Details</h2>
+                  <p className="address">
+                    <span>{name}</span><br />
+						   <span>{street}<br />
+                     {zip} {city}, {state} 
+                   </span><br />
+						   <span>{phone}</span><br />
+						   <span>{phone2}</span><br />
+                     <span>{email}</span>
+					   </p>
+               </div>
+               <div className="columns download">
+                  <h2>Download Resumes:</h2>
+                  <p>
+                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i> Front-End Developer </a>
+                     <a href={resumeDownload2} className="button"><i className="fa fa-download"></i>IT Business Analyst </a>
+                     <a href={resumeDownload3} className="button"><i className="fa fa-download"></i>Athletic Trainer</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
+    );
+  }
+}
+
+export default About;
